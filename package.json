@@ -1,0 +1,24 @@
+{
+  "name": "express_random_number",
+  "version": "1.0.0",
+  "description": "Create a route in express that returns a random number. Write your code from scratch and use the code from lecture as a reference.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomBrossart/express_random_number.git"
+  },
+  "author": "Tom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomBrossart/express_random_number/issues"
+  },
+  "homepage": "https://github.com/tomBrossart/express_random_number#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
