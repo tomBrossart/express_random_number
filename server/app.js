@@ -16,9 +16,9 @@ app.get("/*", function(req, res) { // when there is a request to this url /* the
  console.log('got a request', req.params[0]); // this shows up in terminal
 
 // determine which file to send back
- var file = req.params[0]  ||  "/views/index.html";
+ var file = req.params[0]  ||  "./views/index.html";
 // send the file back to the browser
- res.sendFile(path.join(__dirname, "/public/", file));
+ res.sendFile(path.join(__dirname, "./public/", file));
 });
 
 
